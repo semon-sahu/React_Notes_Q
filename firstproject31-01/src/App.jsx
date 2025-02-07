@@ -1,4 +1,10 @@
-// import img from './images/img1.jpg'
+
+import About from './About'
+import { Contact as cont,Mobile } from './Contact';
+//note 
+//if we use as keyword then we can use the name of the function as we want
+//we can also use alias name of the function
+
 function App() {
  
 
@@ -9,10 +15,12 @@ function App() {
 <h1>Welcome</h1>
 
 <h2>bye</h2>
-<img src="./images/img1.jpg" alt="" />
 
 
 
+<About/>
+<Contact/>
+<Mobile/>
 
     </>
 
