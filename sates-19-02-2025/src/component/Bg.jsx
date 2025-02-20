@@ -21,7 +21,12 @@ const [tg,setTg]=useState(true)
         </div>
         {tg ? <h1>Hide the Comment  message</h1> : ""}
         
-        <button onClick={()=>setTg(false)}>HIDE</button>
+        {/* <button onClick={()=>setTg(false)}>HIDE</button>
+        <button onClick={()=>setTg(true)}>show</button> */}
+        <br />
+        {tg ?  <button onClick={()=>setTg(!tg)}>hide</button> : <button onClick={()=>setTg(!tg)}>show</button>}
+       
+        {/* because of toggel we can do  both ting show and hide insingle click */}
      
         </>
     )
