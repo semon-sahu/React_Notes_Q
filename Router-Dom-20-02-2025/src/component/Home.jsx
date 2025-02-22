@@ -7,7 +7,8 @@ function Home(){
     return(
         <>
         
-        <h1>home</h1>
+   <h1 style={{alignItems:"center", backgroundColor:"aqua"}}>TOPIC-REACT-ROUTER-DOM</h1>
+    
         
         </>
     )

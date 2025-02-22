@@ -4,26 +4,26 @@ import About from './component/About'
 import Services from './component/Services'
 import Home from './component/Home'
 import './App.css'
+import Layout from './component/Layout';
 
 function App() {
   
 
   return (
     <>
-   <h1 style={{alignItems:"center", backgroundColor:"aqua"}}>TOPIC-REACT-ROUTER-DOM</h1>
 
 <Routes>
+<Route path="/" element={<Layout/>}>
   <Route index element={<Home/>}/>
-
 <Route  path="/about"  element={<About/>}/>
 <Route  path="/services"  element={<Services/>}/>
 
-
+ </Route>
 </Routes>
 
 
-
-    </>
+</>
+   
   )
 }
 
