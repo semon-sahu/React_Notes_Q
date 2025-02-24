@@ -5,6 +5,7 @@ import Services from './component/Services'
 import Home from './component/Home'
 import './App.css'
 import Layout from './component/Layout';
+import Gallery from './component/Gallery';
 
 function App() {
   
@@ -17,10 +18,10 @@ function App() {
   <Route index element={<Home/>}/>
 <Route  path="/about"  element={<About/>}/>
 <Route  path="/services"  element={<Services/>}/>
+  <Route path="/gallery" element={<Gallery/>}/>
 
  </Route>
 </Routes>
-
 
 </>
    

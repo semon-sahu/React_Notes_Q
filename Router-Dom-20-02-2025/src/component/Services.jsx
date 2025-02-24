@@ -1,3 +1,5 @@
+import { Link, Route } from "react-router-dom";
+
 
 
 
@@ -11,6 +13,11 @@ function Services(){
         <>
         
         <h1>Services</h1>
+
+<button> 
+<Link to="/gallery">
+Goto Gallery</Link>
+</button>
         
         </>
     )
