@@ -5,16 +5,14 @@ import { createContext } from "react";
 
 
 let adata=createContext();
-let age=45;
+let ob={name:"semon sahu",contact:9752167422}
 
 const Child1=()=>{
     return(
         <>
 
 
-<adata.Provider value={age}>
-
-
+<adata.Provider value={ob}>
         <Child2/>
 
 </adata.Provider>

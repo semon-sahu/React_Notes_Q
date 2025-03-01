@@ -5,9 +5,7 @@ const Child3=()=>{
     return(
         <>
        <p> child 3</p>
-        
-        <Child4/>
-        
+        <Child4/>  
         </>
     )
 }
