@@ -18,6 +18,7 @@ const Form=()=>{
          <input type="text" placeholder='Enter your email'  onChange={inpuchange}/><br />
          <input type="text" placeholder='Enter your id'  onChange={inpuchange}/><br />
          <input type="text" placeholder='Enter your address'  onChange={inpuchange}/><br />
+         <button type="submit"  onChange={inpuchange}>submit</button>
          {frmdata}
         
         </>
