@@ -35,7 +35,6 @@ function App() {
       <Container>
 <Row>
   <Col lg={6}  md={6} sm={12} className="bg-success text-white p-3 ">
-  
 
 
   {/* for  padding top =pt 

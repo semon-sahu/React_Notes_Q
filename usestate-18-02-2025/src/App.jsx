@@ -1,4 +1,5 @@
 import {useState} from "react";
+import Pra from "./Pra";
 
 import './App.css'
 
@@ -31,6 +32,10 @@ function App() {
 <h1>{c}</h1>
   <button onClick={Dec}>-</button>
   <button onClick={Inc}>+</button>
+  <hr />
+
+
+  <Pra/>
 
     </>
   )
