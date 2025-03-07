@@ -1,0 +1,17 @@
+{
+   "student" :[
+    {
+        "name":"semon",
+        "age":22,
+        "city":"Bhopal",
+        "profession":"student"
+    },
+        {
+        "name":"rahul",
+        "age":40,
+        "city":"indore",
+        "profession":"student"
+    }
+]
+
+}
