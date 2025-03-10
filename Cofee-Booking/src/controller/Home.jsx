@@ -33,19 +33,28 @@ function Home() {
 
 
 
-<section>
+<section className="sectionmainfull">
   {/* // This is the section where the content will be displayed the coffee heaven */}
 <div className="section1">
     
-  <img src={i2} alt="" height={400}  width={300}/>
+  <img src={i2} alt="" height={500}  width={400}/>
+
   <div className='Coffee_Heaven'>
   <h1>Coffee Heaven</h1>
-  <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Mollitia eligendi porro <br />laborum, quae aliquid, dolorem iusto nihil corporis tempore deserunt temporaConsequatur, tempore distinctio cum magni ullam at d</p>
+  <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Mollitia eligendi porro <br /> laborum, quae aliquid, dolorem iusto nihil corporis tempore  deserunt tempora <br />Consequatur, tempore distinctio cummagni ullam at d</p>
 <button>View All</button>
  </div>
 </div>
-<div>
-  {/* <img src={i3} alt="" /> */}
+
+
+<div className="jeansdiv">
+  <div className='jeans'>
+  <h1>Jeans Coffee</h1>
+  <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Mollitia eligendi porro <br /> laborum, quae aliquid, dolorem iusto nihil corporis tempore  deserunt</p>
+  <button>View All</button>
+
+  </div>
+  <img src={i3} alt=""   height={500}  width={400}/>
 </div>
 </section>
     </>
