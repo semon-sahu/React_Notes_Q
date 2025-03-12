@@ -1,39 +1,25 @@
 {
   "student": [
     {
-      "name": "rahul",
-      "age": 22,
-      "city": "ghsjag",
-      "profession": "student",
-      "id": "3a63"
+      "id": "d42d",
+      "name": "SEMON SAHU",
+      "age": "22",
+      "city": "BHOPAL",
+      "profession": "STUDENT"
     },
     {
-      "name": "bhjahgsf",
-      "age": 22,
-      "city": "Bjahkdhhopal",
-      "profession": "student",
-      "id": "18c5"
+      "id": "0b3d",
+      "name": "PRASHNAT MAJBIA",
+      "age": "22",
+      "city": "INDORE",
+      "profession": "STUDENT"
     },
     {
-      "name": "adnknkjf",
-      "age": 256,
-      "city": "s,ajfjk",
-      "profession": "student",
-      "id": "4eb5"
-    },
-    {
-      "id": "a6a9",
-      "name": "aruhsi",
-      "age": "5",
-      "city": "pune",
-      "profession": "softewaare bsadg"
-    },
-    {
-      "id": "d1b5",
-      "name": "aditya",
-      "age": "45",
-      "city": "hedrabad",
-      "profession": "shopkeeper"
+      "id": "e6ef",
+      "name": "ADITYA YADAV",
+      "age": "23",
+      "city": "INDORE",
+      "profession": "DEVELOPER"
     }
   ]
 }

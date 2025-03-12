@@ -1,7 +1,7 @@
 
 import './App.css'
 import axios from 'axios'
-import { use, useEffect  ,useState } from 'react'
+import {  useEffect  ,useState } from 'react'
 
 function App() {
 
@@ -42,6 +42,9 @@ function editfinalsubmit(e){
   e.preventDefault()
   axios.put(`http://localhost:3000/student/${editdata.id}`,editdata)
   .then(r=>alert("update"))
+ 
+  
+
 }
   
      
@@ -83,7 +86,7 @@ function editfinalsubmit(e){
             <td>{e.city}</td>
             <td>{e.profession}</td>
             <td><button onClick={()=>del(e.id)}>Delete </button></td>
-            <td><button onClick={(setshw(true),seteditdata(e))}>Edit </button></td>
+            <td><button onClick={()=>{setshw(true),seteditdata(e)}}>Edit </button></td>
           </tr>
           </>
           )
@@ -94,6 +97,7 @@ function editfinalsubmit(e){
     </table>
     <hr />
     <br />
+    <hr />
 {/* //inster form  */}
 <h1>Instrt form</h1>
     <form action="" onSubmit={datasubmit}>
@@ -113,10 +117,11 @@ function editfinalsubmit(e){
     </form>
   
 
-
+<hr />
 
 
   {/* edit form  */}
+  <h1>efit form</h1>
 {shwfrm && (
   <form action=""  onSubmit={editfinalsubmit}>
 
@@ -136,6 +141,7 @@ function editfinalsubmit(e){
 
   </form>
   )}
+  <hr />
     </>
   )
 }
