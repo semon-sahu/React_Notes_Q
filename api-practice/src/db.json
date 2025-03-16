@@ -1,0 +1,41 @@
+{
+  "Employee": 
+  [
+  {
+    "nmae":"Semon sahu",
+    "age":25,
+    "city":"Delhi",
+    "salary":50000,
+    "post":"software developer"
+  },
+  {
+    "nmae":"Piyush katare",
+    "age":22,
+    "city":"Indore",
+    "salary":45000,
+    "post":"software developer"
+  },
+  {
+    "nmae":"Vindo shukla",
+    "age":48,
+    "city":"Bhopal",
+    "salary":35000,
+    "post":"software-engineer"
+  },
+  {
+    "nmae":"Aditya sahu",
+    "age":24,
+    "city":"Delhi",
+    "salary":60000,
+    "post":"software developer"
+  },
+  {
+    "nmae":"Anchal shukla",
+    "age":30,
+    "city":"Bina",
+    "salary":35000,
+    "post":"software developer"
+  }
+]
+
+}

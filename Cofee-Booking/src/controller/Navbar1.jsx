@@ -7,32 +7,29 @@ import { Link } from 'react-router-dom';
 // import Home from './Home';
 
 function Navbar1() {
-
-
   return (
-    <>
-    
-    <Navbar bg="light" data-bs-theme="light" >
-        <Container className='Navbardiv' >
-          <Navbar.Brand href="#home" >Caffeine</Navbar.Brand>
+    <> 
+    <Navbar bg="rgb(45, 28, 28)" data-bs-theme="light" className="navcontain"  >
+        <Container className='Navbardiv'>
+          <Navbar.Brand href="#home" style={{color:"white",fontSize:"30px",fontStyle:"oblique"}} >Caffeine</Navbar.Brand>
           <Nav className="me-auto">
             <Nav.Link to="/">
-            <Link to="/">Home</Link> 
+            <Link to="/" style={{textDecoration:"none",color:"white", fontSize:"20px"}} >Home</Link>
             </Nav.Link>
             <Nav.Link to="menu">
-              <Link to="Menu">Menu</Link>
+              <Link to="Menu" style={{textDecoration:"none",color:"white", fontSize:"20px"}}>Menu</Link>
               
               </Nav.Link>
             <Nav.Link to="about Us">
-              <Link to="AboutUs">About Us</Link>
+              <Link to="AboutUs" style={{textDecoration:"none",color:"white", fontSize:"20px"}}>About Us</Link>
               </Nav.Link>
             <Nav.Link to="facilities">
-              <Link to="Facilities">Facilities</Link>
+              <Link to="Facilities" style={{textDecoration:"none",color:"white", fontSize:"20px"}}>Facilities</Link>
               </Nav.Link>
 
           </Nav>
           <Nav.Link to="Sign in">
-              <Link to="Sign in">Sign in </Link>
+              <Link to="Sign in" style={{textDecoration:"none",color:"white", fontSize:"20px"}}>Sign in </Link>
               </Nav.Link>
         </Container>
       </Navbar>
@@ -40,5 +37,4 @@ function Navbar1() {
     </>
   )
 }
-
-export default Navbar1
+export default Navbar1;
