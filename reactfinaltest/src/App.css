@@ -1,0 +1,17 @@
+body{
+  background-color: aquamarine;
+}
+
+.h1a{
+text-align: center;
+color:blueviolet;
+}
+.but1{
+  background-color: rgb(88, 88, 180);
+color: white;
+padding: 10px;
+border: 2px solid;
+border-radius: 10px;
+margin-left: 300px;
+  
+}

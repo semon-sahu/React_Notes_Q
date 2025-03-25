@@ -2,6 +2,7 @@
 import './App.css'
 import axios from 'axios'
 import {  useEffect  ,useState } from 'react'
+import Try from './try';
 
 function App() {
 
@@ -142,6 +143,8 @@ function editfinalsubmit(e){
   </form>
   )}
   <hr />
+
+  <Try/>
     </>
   )
 }
