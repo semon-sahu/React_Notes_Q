@@ -28,8 +28,8 @@ function Navbar1() {
               </Nav.Link>
 
           </Nav>
-          <Nav.Link to="Sign in">
-              <Link to="Sign in" style={{textDecoration:"none",color:"white", fontSize:"20px"}}>Sign in </Link>
+          <Nav.Link to="Login">
+              <Link to="Login" style={{textDecoration:"none",color:"white", fontSize:"20px"}}>Login </Link>
               </Nav.Link>
         </Container>
       </Navbar>

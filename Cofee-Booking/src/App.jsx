@@ -5,6 +5,7 @@ import Menu from './controller/Menu'
 import AboutUs from './controller/AboutUs'
 import Facilities from './controller/Facilities'
 import Layout from './controller/Layout'
+import Login from './controller/Login'
 function App() {
 
 
@@ -17,6 +18,7 @@ function App() {
 <Route path="/menu" element={<Menu/>}/>
 <Route path="/aboutUs" element={<AboutUs/>}/>
 <Route path="/facilities" element={<Facilities/>}/>
+<Route path="/login" element={<Login/>}/>
 </Route>
 </Routes>
  
