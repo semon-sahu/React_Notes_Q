@@ -6,6 +6,8 @@ import AboutUs from './controller/AboutUs'
 import Facilities from './controller/Facilities'
 import Layout from './controller/Layout'
 import Login from './controller/Login'
+import Signup from './controller/Signup'
+ 
 function App() {
 
 
@@ -19,6 +21,7 @@ function App() {
 <Route path="/aboutUs" element={<AboutUs/>}/>
 <Route path="/facilities" element={<Facilities/>}/>
 <Route path="/login" element={<Login/>}/>
+<Route path="/signup" element={<Signup/>}/>
 </Route>
 </Routes>
  

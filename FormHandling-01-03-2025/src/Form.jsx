@@ -18,6 +18,7 @@ const Form=()=>{
         // setfrmdata(e.target.value);
 
     }
+    
     function finalsubmit(e){
         e.preventDefault();
 

@@ -3,8 +3,6 @@ import { useContext } from 'react';
 import React from 'react';
 import { adata } from './Child1';
 
-
-
 const Child5=()=>{
         {/* it a  usecontext hooks  */}
     let data=useContext(adata);
@@ -15,7 +13,6 @@ const Child5=()=>{
         {/* it a  usecontext hooks  */}
 
         <h1>my age is smonthing {data.name}and {data.contact}</h1>
-
 
 {/* consumer ka use karte hai jab hume parent se data chahiye hota hai */}
     {/* <adata.Consumer>

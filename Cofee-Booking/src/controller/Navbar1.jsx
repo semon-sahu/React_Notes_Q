@@ -31,6 +31,10 @@ function Navbar1() {
           <Nav.Link to="Login">
               <Link to="Login" style={{textDecoration:"none",color:"white", fontSize:"20px"}}>Login </Link>
               </Nav.Link>
+              <h1 style={{textDecoration:"none",color:"white", fontSize:"20px"}}>/</h1>
+          <Nav.Link to="Signup">
+              <Link to="Signup" style={{color:"white", fontSize:"20px"}}>Signup </Link>
+              </Nav.Link>
         </Container>
       </Navbar>
 

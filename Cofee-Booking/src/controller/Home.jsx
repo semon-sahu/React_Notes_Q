@@ -3,6 +3,7 @@ import React from 'react'
 import i1 from '../images/cup11.jpg'
 import i2 from '../images/images2.jpg'
 import i3 from '../images/image3.avif'
+import { Link } from 'react-router-dom'
 
 function Home() {
 
@@ -13,8 +14,8 @@ function Home() {
     <div className="home">
 <h1>Discover The <br />Art ofPerfeet <br />Coffee</h1>
 <p>Exprience The Rich And Bold Flavours Of Our <br /> Exquisite Coffee Blend.Creafted To Awaken Your <br />Senses And Statrt Your Day Right</p>
-<button className="btn1">Order Now </button>
-<button className="btn2">Explore More</button>
+<Link to="/login"> <button className="btn1">Order Now </button></Link>
+<Link to="/menu" ><button className="btn2">Explore More</button></Link>
 <div  className="h3div">
 <h3>50+</h3>
 <p className='p1'>ITEMS OF COFFEE</p>

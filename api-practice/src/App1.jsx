@@ -1,46 +1,45 @@
 import axios from "axios";
 import { useEffect, useState } from "react";
 
+const App1=()=>{
 
+  const[apidata1,setapidata1]=useState([]);
 
-const Api=()=>{
+    useEffect(()=>{
+      axios.get('http://localhost:3000/student')
+      .then(res=>{
+        setapidata1(res.data)
 
-
-let [api1data,fatchapi1data]=useState([]);
-
-useEffect(()=>{
-    axios.get('http://localhost:3000/student')
-    .then(res=>{
-       fatchapi1data(res.data)
+      })
     })
-})
-    
-    return(
-        <>
-      <table border={1}>
-        <tr>
-            <th>Name</th>
-            <th>Age</th>
-            <th>Grade</th>
+  
+  return(
+    <>
+    <table border="1px">
+<tr>
+  <th>Name</th>
+  <th>Age</th>
+  <th>Grade</th>
+</tr>
 
-            
-        </tr>
-      </table>
-      {
-        api1data.map((e)=>{
-            return(
-                <>
-                <tr> 
-                <td>{e.name}</td>
-                <td>{e.age}</td>
-                <td>{e.grade}</td>
-                 </tr>
-                </>
-            )
-        })
-      }
-        
-        </>
-    )
+   {
+      apidata1.map((e)=>{
+        return(
+          <>
+          <tr>
+            <td>{e.name}</td>
+            <td>{e.age}</td>
+            <td>{e.grade}</td>
+          </tr>
+          </>
+        )
+      })
+    }
+
+    </table>
+ 
+    
+    </>
+  )
 }
-export default Api;
+export default App1;
