@@ -7,6 +7,7 @@ import Facilities from './controller/Facilities'
 import Layout from './controller/Layout'
 import Login from './controller/Login'
 import Signup from './controller/Signup'
+import Fullmenu from './controller/Fullmenu'
  
 function App() {
 
@@ -22,6 +23,7 @@ function App() {
 <Route path="/facilities" element={<Facilities/>}/>
 <Route path="/login" element={<Login/>}/>
 <Route path="/signup" element={<Signup/>}/>
+<Route path="/fullmenu" element={<Fullmenu/>}/>
 </Route>
 </Routes>
  

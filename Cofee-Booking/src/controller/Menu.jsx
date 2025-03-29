@@ -15,7 +15,7 @@ function Menu() {
   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa voluptatum sit cupiditate optio quae  nihil rem provident  <br />perferendis quis! Nulla aliquid reprehenderit rem harum sed quaerat officiis reiciendis error quidem.</p>
 
 <li>
-  <ul><Link  style={{textDecoration:"none",color:"white", fontSize:"20px"}}>All</Link> </ul>
+  <ul><Link   to="/fullmenu" style={{textDecoration:"none",color:"white", fontSize:"20px"}}>All</Link> </ul>
   <ul> <Link  style={{textDecoration:"none",color:"white", fontSize:"20px"}}> Black </Link></ul>
   <ul> <Link style={{textDecoration:"none",color:"white", fontSize:"20px"}}>Expresso</Link></ul>
   <ul><Link style={{textDecoration:"none",color:"white", fontSize:"20px"}}>Doppio</Link></ul>
@@ -26,19 +26,19 @@ function Menu() {
   <div className="card1">
     <img src={cup1} alt="cup1"height={300}  width={300}/>
     <h3>Cappuccino</h3>
-    <button>Order Now</button>
+   <Link to="/fullmenu"> <button> Order Now</button></Link>
   </div>
   <div className="card2">
     <img src={cup2} alt="cup2" height={300}  width={300}/>
     <h3>Espresso</h3>
-    <button>Order Now</button>
+   <Link to="/fullmenu"><button>Order Now</button></Link> 
 
 
   </div>
   <div className="card3">
     <img src={cup3} alt="cup3" height={300}  width={300}/>
       <h3>Americano</h3>
-    <button>Order Now</button>
+   <Link to="/fullmenu"><button>Order Now</button></Link> 
   </div>
   
    </div>
